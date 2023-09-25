@@ -6,6 +6,6 @@
   };
 
   outputs = { self, nixpkgs }: {
-    nixosModules.default = import i3/default.nix;
+    nixosModules.i3 = import i3/default.nix;
   };
 }
